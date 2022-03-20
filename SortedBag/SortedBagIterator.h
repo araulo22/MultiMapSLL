@@ -11,7 +11,8 @@ private:
 	const SortedBag& bag;
 	SortedBagIterator(const SortedBag& b);
 
-	//TODO - Representation
+	int index;
+	int freq_index;
 
 public:
 	TComp getCurrent();

@@ -4,25 +4,38 @@
 
 using namespace std;
 
+//T(1)
 SortedBagIterator::SortedBagIterator(const SortedBag& b) : bag(b) {
-	//TODO - Implementation
+	this->index = 0;
+	this->freq_index = 0;
 }
 
+//T(1)
 TComp SortedBagIterator::getCurrent() {
-	//TODO - Implementation
-	return NULL_TCOMP;
+	if(!this->valid())
+        throw exception();
+    return this->bag.bag_array[index].value;
 }
 
+//T(1)
 bool SortedBagIterator::valid() {
-	//TODO - Implementation
-	return false;
+    return this->index < this->bag.length;
 }
 
+//T(1)
 void SortedBagIterator::next() {
-	//TODO - Implementation
+	if(!this->valid())
+	    throw exception();
+	this->freq_index++;
+	if(this->bag.bag_array[index].frequency == this->freq_index) {
+	    this->index++;
+	    this->freq_index = 0;
+	}
 }
 
+//T(1)
 void SortedBagIterator::first() {
-	//TODO - Implementation
+	this->index = 0;
+	this->freq_index = 0;
 }
 
