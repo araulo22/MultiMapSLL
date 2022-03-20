@@ -1,0 +1,68 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Uni stuff/DSA/SortedBag/App.cpp
+SortedBag.h
+D:/Uni stuff/DSA/SortedBag/SortedBag.h
+SortedBagIterator.h
+D:/Uni stuff/DSA/SortedBag/SortedBagIterator.h
+iostream
+-
+ShortTest.h
+D:/Uni stuff/DSA/SortedBag/ShortTest.h
+ExtendedTest.h
+D:/Uni stuff/DSA/SortedBag/ExtendedTest.h
+
+D:/Uni stuff/DSA/SortedBag/ExtendedTest.cpp
+ShortTest.h
+D:/Uni stuff/DSA/SortedBag/ShortTest.h
+SortedBag.h
+D:/Uni stuff/DSA/SortedBag/SortedBag.h
+SortedBagIterator.h
+D:/Uni stuff/DSA/SortedBag/SortedBagIterator.h
+assert.h
+-
+iostream
+-
+exception
+-
+
+D:/Uni stuff/DSA/SortedBag/ExtendedTest.h
+
+D:/Uni stuff/DSA/SortedBag/ShortTest.cpp
+ShortTest.h
+D:/Uni stuff/DSA/SortedBag/ShortTest.h
+SortedBag.h
+D:/Uni stuff/DSA/SortedBag/SortedBag.h
+SortedBagIterator.h
+D:/Uni stuff/DSA/SortedBag/SortedBagIterator.h
+assert.h
+-
+
+D:/Uni stuff/DSA/SortedBag/ShortTest.h
+
+D:/Uni stuff/DSA/SortedBag/SortedBag.cpp
+SortedBag.h
+D:/Uni stuff/DSA/SortedBag/SortedBag.h
+SortedBagIterator.h
+D:/Uni stuff/DSA/SortedBag/SortedBagIterator.h
+
+D:/Uni stuff/DSA/SortedBag/SortedBag.h
+
+D:/Uni stuff/DSA/SortedBag/SortedBagIterator.cpp
+SortedBagIterator.h
+D:/Uni stuff/DSA/SortedBag/SortedBagIterator.h
+SortedBag.h
+D:/Uni stuff/DSA/SortedBag/SortedBag.h
+exception
+-
+
+D:/Uni stuff/DSA/SortedBag/SortedBagIterator.h
+SortedBag.h
+D:/Uni stuff/DSA/SortedBag/SortedBag.h
+
