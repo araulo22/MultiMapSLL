@@ -1,0 +1,84 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Uni stuff/DSA/MultiMapSLL/App.cpp
+iostream
+-
+MultiMap.h
+D:/Uni stuff/DSA/MultiMapSLL/MultiMap.h
+ExtendedTest.h
+D:/Uni stuff/DSA/MultiMapSLL/ExtendedTest.h
+ShortTest.h
+D:/Uni stuff/DSA/MultiMapSLL/ShortTest.h
+MultiMapIterator.h
+D:/Uni stuff/DSA/MultiMapSLL/MultiMapIterator.h
+
+D:/Uni stuff/DSA/MultiMapSLL/ExtendedTest.cpp
+ShortTest.h
+D:/Uni stuff/DSA/MultiMapSLL/ShortTest.h
+MultiMap.h
+D:/Uni stuff/DSA/MultiMapSLL/MultiMap.h
+MultiMapIterator.h
+D:/Uni stuff/DSA/MultiMapSLL/MultiMapIterator.h
+assert.h
+-
+iostream
+-
+stdlib.h
+-
+vector
+-
+exception
+-
+
+D:/Uni stuff/DSA/MultiMapSLL/ExtendedTest.h
+
+D:/Uni stuff/DSA/MultiMapSLL/MultiMap.cpp
+MultiMap.h
+D:/Uni stuff/DSA/MultiMapSLL/MultiMap.h
+MultiMapIterator.h
+D:/Uni stuff/DSA/MultiMapSLL/MultiMapIterator.h
+exception
+-
+iostream
+-
+
+D:/Uni stuff/DSA/MultiMapSLL/MultiMap.h
+vector
+-
+utility
+-
+
+D:/Uni stuff/DSA/MultiMapSLL/MultiMapIterator.cpp
+stdexcept
+-
+MultiMapIterator.h
+D:/Uni stuff/DSA/MultiMapSLL/MultiMapIterator.h
+MultiMap.h
+D:/Uni stuff/DSA/MultiMapSLL/MultiMap.h
+
+D:/Uni stuff/DSA/MultiMapSLL/MultiMapIterator.h
+MultiMap.h
+D:/Uni stuff/DSA/MultiMapSLL/MultiMap.h
+
+D:/Uni stuff/DSA/MultiMapSLL/ShortTest.cpp
+ShortTest.h
+D:/Uni stuff/DSA/MultiMapSLL/ShortTest.h
+MultiMap.h
+D:/Uni stuff/DSA/MultiMapSLL/MultiMap.h
+MultiMapIterator.h
+D:/Uni stuff/DSA/MultiMapSLL/MultiMapIterator.h
+assert.h
+-
+vector
+-
+iostream
+-
+
+D:/Uni stuff/DSA/MultiMapSLL/ShortTest.h
+
