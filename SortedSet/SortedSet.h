@@ -1,5 +1,6 @@
 #pragma once
 //DO NOT INCLUDE SETITERATOR
+#include <iostream>
 
 //DO NOT CHANGE THIS PART
 typedef int TElem;
@@ -14,16 +15,22 @@ struct DLLANode {
     int prev;
 };
 
+struct DLLA {
+    DLLANode* nodes;
+    int max_length, length, head, tail, firstEmpty;
+};
+
 class SortedSet {
 	friend class SortedSetIterator;
 private:
 
-    DLLANode* nodes;
-    int length, max_length, firstFree, head, tail;
+    DLLA list;
     Relation relation;
+
+    void insertPos(TComp elem, int pos);
     void resize();
-    void initFreeSpace();
-    int findFree();
+    int allocate();
+    void free_node(int pos);
 
 public:
 	//constructor

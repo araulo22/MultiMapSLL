@@ -3,30 +3,34 @@
 
 using namespace std;
 
-SortedSetIterator::SortedSetIterator(const SortedSet& m) : multime(m)
+//T(1)
+SortedSetIterator::SortedSetIterator(const SortedSet& m) : set(m)
 {
-	//TODO - Implementation
+	this->list = m.list;
+	this->current = m.list.head;
 }
 
-
+//T(1)
 void SortedSetIterator::first() {
-	//TODO - Implementation
+	this->current = set.list.head;
 }
 
 
 void SortedSetIterator::next() {
-	//TODO - Implementation
+	if(!this->valid())
+	    throw std::exception();
+	this->current = this->list.nodes[this->current].next;
 }
 
 
 TElem SortedSetIterator::getCurrent()
 {
-	//TODO - Implementation
-	return NULL_TELEM;
+	if(!this->valid())
+        throw std::exception();
+    return this->list.nodes[this->current].value;
 }
 
 bool SortedSetIterator::valid() const {
-	//TODO - Implementation
-	return false;
+    return this->current != -1;
 }
 

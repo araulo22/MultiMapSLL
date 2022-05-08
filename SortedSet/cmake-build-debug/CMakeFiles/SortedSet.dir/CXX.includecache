@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+D:/Uni stuff/DSA/SortedSet/ExtendedTest.cpp
+SortedSet.h
+D:/Uni stuff/DSA/SortedSet/SortedSet.h
+assert.h
+-
+SortedSetIterator.h
+D:/Uni stuff/DSA/SortedSet/SortedSetIterator.h
+exception
+-
+ExtendedTest.h
+D:/Uni stuff/DSA/SortedSet/ExtendedTest.h
+iostream
+-
+
+D:/Uni stuff/DSA/SortedSet/ExtendedTest.h
+
 D:/Uni stuff/DSA/SortedSet/SortedSet.cpp
 SortedSet.h
 D:/Uni stuff/DSA/SortedSet/SortedSet.h
@@ -13,6 +29,8 @@ SortedSetIterator.h
 D:/Uni stuff/DSA/SortedSet/SortedSetIterator.h
 
 D:/Uni stuff/DSA/SortedSet/SortedSet.h
+iostream
+-
 
 D:/Uni stuff/DSA/SortedSet/SortedSetIterator.h
 SortedSet.h

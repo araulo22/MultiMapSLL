@@ -171,11 +171,11 @@ void testRemove(Relation r) {
 	}
 	assert(s.size() == 0);
 
-	for (int i = -100; i <= 100; i = i + 2) { 
+	for (int i = -100; i <= 100; i = i + 2) {
 		s.add(i);
 	}
 
-	for (int i = 100; i > -100; i--) { 
+	for (int i = 100; i > -100; i--) {
 		if (i % 2 == 0) {
 			assert(s.remove(i) == true);
 		}
@@ -189,7 +189,7 @@ void testRemove(Relation r) {
 	s.remove(-100);
 	assert(s.size() == 0);
 
-	for (int i = -100; i < 100; i++) { 
+	for (int i = -100; i < 100; i++) {
 		s.add(i);
 		s.add(i);
 		s.add(i);
@@ -198,7 +198,7 @@ void testRemove(Relation r) {
 	}
 
 	assert(s.size() == 200);
-	for (int i = -200; i < 200; i++) { 
+	for (int i = -200; i < 200; i++) {
 		if (i < -100 || i >= 100) {
 			assert(s.remove(i) == false);
 		}

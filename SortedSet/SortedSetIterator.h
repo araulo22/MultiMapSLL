@@ -6,10 +6,11 @@ class SortedSetIterator
 {
 	friend class SortedSet;
 private:
-	const SortedSet& multime;
+	const SortedSet& set;
 	SortedSetIterator(const SortedSet& m);
 
-	//TODO - Representation
+	DLLA list;
+	int current;
 
 public:
 	void first();
