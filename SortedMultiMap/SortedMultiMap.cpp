@@ -90,6 +90,7 @@ BSTKey* SortedMultiMap::remove_key(TKey key, BSTKey* node) {
         else {
             temp = find_min(node->right);
             node->key = temp->key;
+            delete[] node->values;
             node->values = temp->values;
             node->size = temp->size;
             node->max_size = temp->size;
@@ -136,7 +137,7 @@ SMMIterator SortedMultiMap::iterator() const {
 }
 
 SortedMultiMap::~SortedMultiMap() {
-	//TODO - Implementation
+	//delete[] this->root->values;
 }
 
 void SortedMultiMap::resize_key(BSTKey* key) {
